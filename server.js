@@ -25,8 +25,8 @@ const allowedOrigin = process.env.NODE_ENV === 'production'
 // console.log("production url", productionUrl)
 // const allowedOrigins = [productionUrl, "https://nano-hr.web.app"];
 
-const productionUrl = process.env.PRODUCTION_FRONTEND_URL || "http://localhost:4200";
-const allowedOrigins = [productionUrl, "http://localhost:4200"];
+const productionUrl = process.env.PRODUCTION_FRONTEND_URL || "https://nanostores.co.th/dashboard/admin";
+const allowedOrigins = [productionUrl, "https://nanostores.co.th/dashboard/admin"];
 
 
 app.use(cors({
